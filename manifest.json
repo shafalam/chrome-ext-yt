@@ -1,0 +1,11 @@
+{
+    "name": "Chrome Extension Youtube",
+    "version": "0.1",
+    "description": "Chrome extension to remove Youtube Home and Suggested videos list",
+    "permissions": ["activeTab","declarativeContent", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "manifest_version": 2
+  }
